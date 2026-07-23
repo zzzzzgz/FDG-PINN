@@ -1,0 +1,17 @@
+\begin{table}[h]
+\centering
+\caption{\texttt{fdg\_reaction\_diffusion\_mixed1d\_eq} formal run summary}
+\begin{adjustbox}{max width=\textwidth}
+\scriptsize
+\begin{tabular}{lccccccc}
+\toprule
+Method & Time(s) & Final PDE & Final IC & Final BC & $L_2$(training) & Global $L_2$ & Discrete $L_2$ \\
+\midrule
+Standard PINN & 78.21 & $1.489\times10^{-2}$ & $3.252\times10^{-3}$ & $4.337\times10^{-5}$ & $8.018\times10^{-2}$ & $7.993\times10^{-2}$ & $8.021\times10^{-2}$ \\
+$\phi$-NN + AW & 354.39 & $1.764\times10^{-2}$ & $3.656\times10^{-3}$ & $3.308\times10^{-5}$ & $8.515\times10^{-2}$ & $8.482\times10^{-2}$ & $8.499\times10^{-2}$ \\
+DG-PINN + AW & 415.50 & $1.698\times10^{-2}$ & $3.400\times10^{-3}$ & $4.666\times10^{-5}$ & $8.167\times10^{-2}$ & $8.109\times10^{-2}$ & $8.069\times10^{-2}$ \\
+FDG-PINN + AW & 428.56 & $4.222\times10^{-6}$ & $1.076\times10^{-7}$ & $6.936\times10^{-8}$ & $3.695\times10^{-4}$ & $3.102\times10^{-4}$ & $2.931\times10^{-4}$ \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}

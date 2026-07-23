@@ -1,0 +1,17 @@
+\begin{table}[h]
+\centering
+\caption{fdg_transport1d_eq formal run summary}
+\begin{adjustbox}{max width=\textwidth}
+\scriptsize
+\begin{tabular}{lccccccc}
+\toprule
+Method & Time(s) & Final PDE & Final IC & Final BC & $L_2$(training) & Global $L_2$ & Discrete $L_2$ \\
+\midrule
+Standard PINN & 50.02 & $5.123\times10^{-2}$ & $1.147\times10^{-3}$ & $1.394\times10^{-3}$ & $4.965\times10^{-2}$ & $5.349\times10^{-2}$ & $5.297\times10^{-2}$ \\
+$\phi$-NN + AW & 186.33 & $2.886\times10^{-3}$ & $1.887\times10^{-5}$ & $2.726\times10^{-5}$ & $5.810\times10^{-3}$ & $6.158\times10^{-3}$ & $6.048\times10^{-3}$ \\
+DG-PINN + AW & 213.17 & $2.124\times10^{-3}$ & $3.457\times10^{-5}$ & $2.466\times10^{-5}$ & $6.829\times10^{-3}$ & $7.120\times10^{-3}$ & $7.036\times10^{-3}$ \\
+FDG-PINN + AW & 218.19 & $2.376\times10^{-4}$ & $1.175\times10^{-6}$ & $4.023\times10^{-6}$ & $1.733\times10^{-3}$ & $1.792\times10^{-3}$ & $1.764\times10^{-3}$ \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}

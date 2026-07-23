@@ -1,0 +1,17 @@
+\begin{table}[h]
+\centering
+\caption{\texttt{fdg\_burgers\_mixed1d\_eq} formal run summary}
+\begin{adjustbox}{max width=\textwidth}
+\scriptsize
+\begin{tabular}{lccccccc}
+\toprule
+Method & Time(s) & Final PDE & Final IC & Final BC & $L_2$(training) & Global $L_2$ & Discrete $L_2$ \\
+\midrule
+Standard PINN & 93.12 & $1.091\times10^{-3}$ & $2.070\times10^{-4}$ & $3.882\times10^{-5}$ & $2.475\times10^{-2}$ & $2.573\times10^{-2}$ & $2.899\times10^{-2}$ \\
+$\phi$-NN + AW & 376.66 & $2.485\times10^{-4}$ & $4.752\times10^{-5}$ & $8.335\times10^{-6}$ & $9.206\times10^{-3}$ & $8.800\times10^{-3}$ & $8.872\times10^{-3}$ \\
+DG-PINN + AW & 433.10 & $1.174\times10^{-4}$ & $2.191\times10^{-5}$ & $1.853\times10^{-5}$ & $7.230\times10^{-3}$ & $6.910\times10^{-3}$ & $7.601\times10^{-3}$ \\
+FDG-PINN + AW & 434.75 & $4.777\times10^{-6}$ & $2.281\times10^{-7}$ & $7.416\times10^{-8}$ & $7.730\times10^{-4}$ & $7.968\times10^{-4}$ & $9.186\times10^{-4}$ \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}

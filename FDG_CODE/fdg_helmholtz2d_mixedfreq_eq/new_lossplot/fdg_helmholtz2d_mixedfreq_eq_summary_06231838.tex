@@ -1,0 +1,17 @@
+\begin{table}[h]
+\centering
+\caption{\texttt{fdg\_helmholtz2d\_mixedfreq\_eq} formal run summary}
+\begin{adjustbox}{max width=\textwidth}
+\scriptsize
+\begin{tabular}{lccccccc}
+\toprule
+Method & Time(s) & Final PDE & Final IC & Final BC & $L_2$(training) & Global $L_2$ & Discrete $L_2$ \\
+\midrule
+Standard PINN & 99.61 & $2.366\times10^{-1}$ & $0.000\times10^{0}$ & $1.031\times10^{-4}$ & $2.914\times10^{-1}$ & $3.159\times10^{-1}$ & $3.159\times10^{-1}$ \\
+$\phi$-NN + AW & 509.98 & $7.813\times10^{-5}$ & $0.000\times10^{0}$ & $5.090\times10^{-6}$ & $2.018\times10^{-1}$ & $2.196\times10^{-1}$ & $2.196\times10^{-1}$ \\
+DG-PINN + AW & 603.97 & $5.892\times10^{-4}$ & $0.000\times10^{0}$ & $2.358\times10^{-5}$ & $2.191\times10^{-1}$ & $2.389\times10^{-1}$ & $2.389\times10^{-1}$ \\
+FDG-PINN + AW & 590.55 & $1.084\times10^{-6}$ & $0.000\times10^{0}$ & $4.377\times10^{-8}$ & $1.063\times10^{-2}$ & $1.151\times10^{-2}$ & $1.151\times10^{-2}$ \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}

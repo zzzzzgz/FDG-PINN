@@ -1,0 +1,26 @@
+FDG temperature reconstruction summary
+cublas_workspace_config=:4096:8
+pythonhashseed=2026
+seed=2026
+dtype=torch.float32
+adam_steps=2000
+lbfgs_steps=300
+hidden_width=128
+hidden_depth=4
+fourier_freqs=(1.0, 2.0, 4.0, 8.0)
+ic_count=10989
+bc_count=1660
+data_count=21146
+train_indices_file=train_indices.npz
+model_checkpoint=fdg_temperature_model.pt
+plot_temp_vmin_override_C=None
+plot_temp_vmax_override_C=None
+plot_error_vmax_override_C=None
+temp_mean_C=32.17457962036133
+temp_std_C=3.5462217330932617
+rmse_C=0.29881495237350464
+mae_C=0.20974773168563843
+relative_l2=0.009231396950781345
+plot_temp_vmin_C=-5.0
+plot_temp_vmax_C=40.0
+plot_error_vmax_C=6.0

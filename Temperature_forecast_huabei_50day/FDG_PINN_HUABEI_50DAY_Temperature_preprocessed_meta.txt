@@ -1,0 +1,17 @@
+FDG-PINN HUABEI temperature preprocessing metadata
+input_csv=FDG_PINN_HUABEI_50DAY_Temperature_trim_lat.csv
+output_csv=FDG_PINN_HUABEI_50DAY_Temperature_preprocessed.csv
+rows=509000
+day_min=0.0
+day_max=49.0
+lat_min=32.11477140727289
+lat_max=41.99623953258763
+lon_min=112.0648316939103
+lon_max=121.94629981922505
+temp_min=-1.4396436055500883
+temp_max=30.867460505167685
+output_day_min=1.0
+output_day_max=50.0
+day_output=day_original+1
+lat_output=(lat_original-lat_min)/(lat_max-lat_min)
+lon_output=(lon_original-lon_min)/(lon_max-lon_min)

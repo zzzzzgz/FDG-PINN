@@ -1,0 +1,17 @@
+FDG-PINN India temperature preprocessing metadata
+input_csv=FDG_PINN_India_Temperature_trim_lat.csv
+output_csv=FDG_PINN_India_Temperature_preprocessed.csv
+rows=274725
+day_min=0.0
+day_max=24.0
+lat_min=20.167178128483258
+lat_max=28.97066791285457
+lon_min=73.07794836312307
+lon_max=82.95941648843781
+temp_min=-1.9331179300943973
+temp_max=40.06239471435549
+output_day_min=1.0
+output_day_max=25.0
+day_output=day_original+1
+lat_output=(lat_original-lat_min)/(lat_max-lat_min)
+lon_output=(lon_original-lon_min)/(lon_max-lon_min)

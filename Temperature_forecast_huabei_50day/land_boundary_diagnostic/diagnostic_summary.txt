@@ -1,0 +1,6 @@
+grid_shape=(111, 111)
+valid_spatial_count=10180
+sea_spatial_count=2141
+boundary_spatial_count=615
+interior_spatial_count=9565
+boundary_mode=four_neighbor_land_mask

@@ -1,0 +1,130 @@
+{
+  "created_from": "E:\\workpackage\\PINN",
+  "paper": "FDG_CODE/FDG_PINN_ND.tex",
+  "selected_pde_equations": [
+    "fdg_transport1d_eq",
+    "fdg_burgers_mixed1d_eq",
+    "fdg_helmholtz2d_eq",
+    "fdg_helmholtz2d_k20_eq",
+    "fdg_helmholtz2d_mixedfreq_eq",
+    "fdg_reaction_diffusion_mixed1d_eq",
+    "fdg_nls1d_eq"
+  ],
+  "pde_run_stems": {
+    "fdg_transport1d_eq": [
+      "fdg_transport1d_eq_LHS_base_fixed_06191147",
+      "fdg_transport1d_eq_LHS_double_gate_aw_06191154",
+      "fdg_transport1d_eq_LHS_fourier_base_aw_07131659",
+      "fdg_transport1d_eq_LHS_fourier_double_gate_aw_06191158",
+      "fdg_transport1d_eq_LHS_improved_nn_aw_06191151"
+    ],
+    "fdg_burgers_mixed1d_eq": [
+      "fdg_burgers_mixed1d_eq_LHS_base_fixed_06241325",
+      "fdg_burgers_mixed1d_eq_LHS_double_gate_aw_06241339",
+      "fdg_burgers_mixed1d_eq_LHS_fourier_base_aw_07131710",
+      "fdg_burgers_mixed1d_eq_LHS_fourier_double_gate_aw_06241346",
+      "fdg_burgers_mixed1d_eq_LHS_improved_nn_aw_06241332"
+    ],
+    "fdg_helmholtz2d_eq": [
+      "fdg_helmholtz2d_eq_LHS_base_fixed_06191224",
+      "fdg_helmholtz2d_eq_LHS_double_gate_aw_06191241",
+      "fdg_helmholtz2d_eq_LHS_fourier_base_aw_07131702",
+      "fdg_helmholtz2d_eq_LHS_fourier_double_gate_aw_06191251",
+      "fdg_helmholtz2d_eq_LHS_improved_nn_aw_06191232"
+    ],
+    "fdg_helmholtz2d_k20_eq": [
+      "fdg_helmholtz2d_k20_eq_LHS_base_fixed_06231621",
+      "fdg_helmholtz2d_k20_eq_LHS_double_gate_aw_06231639",
+      "fdg_helmholtz2d_k20_eq_LHS_fourier_base_aw_07131704",
+      "fdg_helmholtz2d_k20_eq_LHS_fourier_double_gate_aw_06231646",
+      "fdg_helmholtz2d_k20_eq_LHS_improved_nn_aw_06231629"
+    ],
+    "fdg_helmholtz2d_mixedfreq_eq": [
+      "fdg_helmholtz2d_mixedfreq_eq_LHS_base_fixed_06231809",
+      "fdg_helmholtz2d_mixedfreq_eq_LHS_double_gate_aw_06231828",
+      "fdg_helmholtz2d_mixedfreq_eq_LHS_fourier_base_aw_07131706",
+      "fdg_helmholtz2d_mixedfreq_eq_LHS_fourier_double_gate_aw_06231837",
+      "fdg_helmholtz2d_mixedfreq_eq_LHS_improved_nn_aw_06231818"
+    ],
+    "fdg_reaction_diffusion_mixed1d_eq": [
+      "fdg_reaction_diffusion_mixed1d_eq_LHS_base_fixed_06231719",
+      "fdg_reaction_diffusion_mixed1d_eq_LHS_double_gate_aw_06231731",
+      "fdg_reaction_diffusion_mixed1d_eq_LHS_fourier_base_aw_07131708",
+      "fdg_reaction_diffusion_mixed1d_eq_LHS_fourier_double_gate_aw_06231739",
+      "fdg_reaction_diffusion_mixed1d_eq_LHS_improved_nn_aw_06231724"
+    ],
+    "fdg_nls1d_eq": [
+      "fdg_nls1d_eq_LHS_base_fixed_06241226",
+      "fdg_nls1d_eq_LHS_double_gate_aw_06241243",
+      "fdg_nls1d_eq_LHS_fourier_base_aw_07131713",
+      "fdg_nls1d_eq_LHS_fourier_double_gate_aw_06241255",
+      "fdg_nls1d_eq_LHS_improved_nn_aw_06241233"
+    ]
+  },
+  "figure_refs": [
+    "Figures_ND/Frame.svg",
+    "Figures_ND/fdg_burgers_mixed1d_eq_FDG_PINN_AW_mid_t_field_plot_nd.svg",
+    "Figures_ND/fdg_helmholtz2d_eq_FDG_PINN_AW_field_plot_nd.svg",
+    "Figures_ND/fdg_helmholtz2d_k20_eq_FDG_PINN_AW_field_plot_nd.svg",
+    "Figures_ND/fdg_helmholtz2d_mixedfreq_eq_FDG_PINN_AW_field_plot_nd.svg",
+    "Figures_ND/fdg_nls1d_eq_FDG_PINN_AW_mid_t_field_plot_nd.svg",
+    "Figures_ND/fdg_reaction_diffusion_mixed1d_eq_FDG_PINN_AW_mid_t_field_plot_nd.svg",
+    "Figures_ND/fdg_transport1d_eq_FDG_PINN_AW_mid_t_field_plot_nd.svg",
+    "Figures_ND/huabei_land_boundary_diagnostic_nd.svg",
+    "Figures_ND/huabei_mean_l2_combined_nd_v2.svg",
+    "Figures_ND/huabei_temperature_reconstruction_days_05_10_20.svg",
+    "Figures_ND/india_mean_l2_combined_nd_v2.svg",
+    "Figures_ND/india_temperature_reconstruction_days_05_10_20.svg"
+  ],
+  "climate_sources": [
+    "Temperature_forecast_india/FDG_PINN_India_Temperature.csv",
+    "Temperature_forecast_india/FDG_PINN_India_Temperature_preprocessed.csv",
+    "Temperature_forecast_india/FDG_PINN_India_Temperature_preprocessed_meta.txt",
+    "Temperature_forecast_india/FDG_PINN_India_Temperature_trim_lat.csv",
+    "Temperature_forecast_india/temperature_fdg_eq.py",
+    "Temperature_forecast_india/preprocess_temperature_csv.py",
+    "Temperature_forecast_india/plot_temperature_model_comparison.py",
+    "Temperature_forecast_india/FDG_runner_temperature.py",
+    "Temperature_forecast_india/FDG_runner_temperature_forecast.py",
+    "Temperature_forecast_india/PINN_runner_temperature_fixed.py",
+    "Temperature_forecast_india/PINN_runner_temperature_forecast_fixed.py",
+    "Temperature_forecast_india/temperature_model_comparison_results",
+    "Temperature_forecast_india/fdg_temperature_results/reconstruction_fdg_aw_20260629_120621",
+    "Temperature_forecast_india/pinn_temperature_results/reconstruction_pinn_fixed_20260629_120848",
+    "Temperature_forecast_india/fdg_temperature_forecast_results/forecast_fdg_aw_20260629_120954",
+    "Temperature_forecast_india/pinn_temperature_forecast_results/forecast_pinn_fixed_20260629_121312",
+    "Temperature_forecast_huabei_50day/FDG_PINN_HUABEI_50DAY_Temperature.csv",
+    "Temperature_forecast_huabei_50day/FDG_PINN_HUABEI_50DAY_Temperature_preprocessed.csv",
+    "Temperature_forecast_huabei_50day/FDG_PINN_HUABEI_50DAY_Temperature_preprocessed_meta.txt",
+    "Temperature_forecast_huabei_50day/FDG_PINN_HUABEI_50DAY_Temperature_trim_lat.csv",
+    "Temperature_forecast_huabei_50day/temperature_fdg_eq.py",
+    "Temperature_forecast_huabei_50day/FDG_runner_temperature.py",
+    "Temperature_forecast_huabei_50day/FDG_runner_temperature_forecast.py",
+    "Temperature_forecast_huabei_50day/FDG_runner_temperature_forecast_bc.py",
+    "Temperature_forecast_huabei_50day/FDG_runner_temperature_forecast_data.py",
+    "Temperature_forecast_huabei_50day/temperature_model_comparison_results_landmask",
+    "Temperature_forecast_huabei_50day/fdg_temperature_results/reconstruction_fdg_aw_landmask_20260629_121501",
+    "Temperature_forecast_huabei_50day/pinn_temperature_results/reconstruction_pinn_fixed_landmask_20260629_121648"
+  ],
+  "excluded_examples": [
+    "FDG_CODE/fdg_diffusion1d_eq",
+    "FDG_CODE/fdg_kdv_soliton_eq",
+    "FDG_CODE/hfdg_*",
+    "Temperature_forecast_huabei",
+    "Temperature_forecast_india_50day",
+    "Temperature",
+    "non-final fourier_double_gate_fixed reruns"
+  ],
+  "copied_count": 336,
+  "skipped_missing": [
+    "FDG_CODE/svjour3.cls",
+    "FDG_CODE/svglov3.clo"
+  ],
+  "additional_huabei_support": [
+    "Temperature_forecast_huabei_50day/PINN_runner_temperature_fixed.py",
+    "Temperature_forecast_huabei_50day/plot_temperature_model_comparison.py",
+    "Temperature_forecast_huabei_50day/preprocess_temperature_csv.py",
+    "Temperature_forecast_huabei_50day/plot_land_boundary_diagnostic.py",
+    "Temperature_forecast_huabei_50day/land_boundary_diagnostic/"
+  ]
+}

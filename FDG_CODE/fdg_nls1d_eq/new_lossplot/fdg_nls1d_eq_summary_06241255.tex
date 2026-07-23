@@ -1,0 +1,17 @@
+\begin{table}[h]
+\centering
+\caption{\texttt{fdg\_nls1d\_eq} formal run summary}
+\begin{adjustbox}{max width=\textwidth}
+\scriptsize
+\begin{tabular}{lccccccc}
+\toprule
+Method & Time(s) & Final PDE & Final IC & Final BC & $L_2$(training) & Global $L_2$ & Discrete $L_2$ \\
+\midrule
+Standard PINN & 78.72 & $8.334\times10^{-6}$ & $1.290\times10^{-6}$ & $1.695\times10^{-7}$ & $3.881\times10^{-3}$ & $5.280\times10^{-3}$ & $5.214\times10^{-3}$ \\
+$\phi$-NN + AW & 456.19 & $1.874\times10^{-6}$ & $7.697\times10^{-8}$ & $1.913\times10^{-8}$ & $9.237\times10^{-4}$ & $1.230\times10^{-3}$ & $1.221\times10^{-3}$ \\
+DG-PINN + AW & 581.34 & $1.340\times10^{-6}$ & $3.920\times10^{-8}$ & $1.924\times10^{-8}$ & $6.862\times10^{-4}$ & $1.009\times10^{-3}$ & $9.830\times10^{-4}$ \\
+FDG-PINN + AW & 697.23 & $1.615\times10^{-6}$ & $2.330\times10^{-8}$ & $2.478\times10^{-8}$ & $3.913\times10^{-4}$ & $5.394\times10^{-4}$ & $5.376\times10^{-4}$ \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}
