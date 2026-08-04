@@ -10,12 +10,12 @@ FDG-PINN integrates multiscale Fourier feature encoding, a Double-Gate neural ne
 
 Source code for the analytical PDE benchmark experiments, including:
 
-- One-dimensional transport equation
-- Helmholtz equations
-- Reaction–diffusion equation
-- Nonlinear Burgers equation
-- Nonlinear Schrödinger equation
-- Ablation and comparative experiments
+* One-dimensional transport equation
+* Helmholtz equations
+* Reaction–diffusion equation
+* Nonlinear Burgers equation
+* Nonlinear Schrödinger equation
+* Ablation and comparative experiments
 
 These experiments are used to evaluate the accuracy and adaptability of FDG-PINN across different equation structures and solution characteristics.
 
@@ -35,14 +35,17 @@ An inventory of the files included in the released research package.
 
 ## Experimental Settings
 
-For the analytical PDE benchmarks, the experiments use a unified frequency set, random seed, network architecture, and broadly consistent optimization procedure wherever applicable:
+For the analytical PDE benchmarks, the experiments use a unified frequency set, network architecture, and broadly consistent optimization procedure wherever applicable:
 
-- Fourier frequency set: `{1, 2, 4, 8}`
-- Random seed: `2026`
-- Optimization: Adam followed by L-BFGS
-- Framework: PyTorch
+* Fourier frequency set: `{1, 2, 4, 8}`
+* Optimization: Adam followed by L-BFGS
+* Framework: PyTorch
 
 Specific equation definitions, sampling settings, loss functions, and training parameters are provided in the corresponding source files.
+
+## Reproducibility
+
+To facilitate the reproduction of the reported results, experiments involving multiple independent runs use the random seeds `1111`, `2222`, `3333`, `4444`, and `5555`. Experiments conducted with a single random seed use `2026`.
 
 ## Temperature-Field Data
 
@@ -56,3 +59,4 @@ The image collection used in the experiments is:
 
 ```text
 ECMWF/ERA5_LAND/HOURLY
+```
