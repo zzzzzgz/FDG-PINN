@@ -1,0 +1,10 @@
+{
+  "seed": 3333,
+  "method": "ff_mlp",
+  "side": 0.4,
+  "run_dir": "E:\\workpackage\\PINN\\FDG_CODE\\review_temperature_spatial_blocks\\side_0.4\\seed_3333\\ff_mlp\\reconstruction_fdg_aw_20261115_183647",
+  "relative_l2": 0.01252539841122003,
+  "heldout_relative_l2": 0.020650193746842505,
+  "heldout_rmse_C": 0.6834285855293274,
+  "heldout_points": 33345
+}

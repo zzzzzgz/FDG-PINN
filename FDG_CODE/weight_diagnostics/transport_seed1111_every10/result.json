@@ -1,0 +1,19 @@
+{
+  "equation": "fdg_transport1d_eq",
+  "seed": 1111,
+  "method": "FDG-PINN",
+  "global_l2": 0.0026339372465383993,
+  "paper_seed_global_l2": 0.0026339372465383993,
+  "exact_match": true,
+  "active_names": [
+    "pde",
+    "ic",
+    "bc"
+  ],
+  "diagnostic_rows": 912,
+  "diagnostic_interval_adam": 10,
+  "diagnostic_interval_lbfgs_evaluations": 10,
+  "lbfgs_iterations": 1000,
+  "lbfgs_closure_calls": 1007,
+  "training_time_s": 282.866233587265
+}

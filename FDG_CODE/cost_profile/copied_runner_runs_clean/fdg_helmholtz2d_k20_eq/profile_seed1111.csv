@@ -1,0 +1,2 @@
+equation,method,seed,model_kind,weight_mode,network_parameters,adaptive_weight_parameters,training_time_s,global_l2,paper_seed_global_l2,peak_allocated_mib,peak_reserved_mib,lbfgs_closure_calls,lbfgs_optimizer_func_evals,lbfgs_iterations,trace_points,trace_csv
+fdg_helmholtz2d_k20_eq,FDG-PINN,1111,fourier_double_gate,aw,108961,2,544.4367456436157,0.012563121936231856,0.012563121936231856,2088.24072265625,2416.0,4,4,3,203,fdg_pinn_seed1111_trace.csv

@@ -1,0 +1,19 @@
+{
+  "equation": "fdg_helmholtz2d_mixedfreq_eq",
+  "method": "FDG-PINN",
+  "seed": 1111,
+  "model_kind": "fourier_double_gate",
+  "weight_mode": "aw",
+  "network_parameters": 108961,
+  "adaptive_weight_parameters": 2,
+  "training_time_s": 597.4145512580872,
+  "global_l2": 0.01856362833032034,
+  "paper_seed_global_l2": 0.01856362833032034,
+  "peak_allocated_mib": 2091.56884765625,
+  "peak_reserved_mib": 2420.0,
+  "lbfgs_closure_calls": 6,
+  "lbfgs_optimizer_func_evals": 6,
+  "lbfgs_iterations": 4,
+  "trace_points": 203,
+  "trace_csv": "fdg_pinn_seed1111_trace.csv"
+}

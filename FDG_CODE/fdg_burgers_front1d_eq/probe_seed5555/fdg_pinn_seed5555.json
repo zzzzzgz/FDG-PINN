@@ -1,0 +1,16 @@
+{
+  "equation": "fdg_burgers_front1d_eq",
+  "seed": 5555,
+  "method": "FDG-PINN",
+  "model_kind": "fourier_double_gate",
+  "weight_mode": "aw",
+  "adam_max_steps": 2000,
+  "lbfgs_max_steps": 1000,
+  "training_time_s": 456.68006467819214,
+  "final_pde_loss": 3.017523559380454e-05,
+  "final_ic_loss": 3.737269170518925e-06,
+  "final_bc_loss": 2.503099413084011e-07,
+  "training_l2": 0.02322029516398131,
+  "global_l2": 0.0249619898928979,
+  "discrete_l2": 0.024372509535164955
+}

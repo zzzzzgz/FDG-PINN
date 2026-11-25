@@ -1,0 +1,19 @@
+{
+  "equation": "fdg_burgers_mixed1d_eq",
+  "method": "FF-PINN",
+  "seed": 1111,
+  "model_kind": "fourier_base",
+  "weight_mode": "aw",
+  "network_parameters": 29857,
+  "adaptive_weight_parameters": 3,
+  "training_time_s": 140.5823073387146,
+  "global_l2": 0.0013383640520952143,
+  "paper_seed_global_l2": 0.0013316386563293054,
+  "peak_allocated_mib": 393.998046875,
+  "peak_reserved_mib": 512.0,
+  "lbfgs_closure_calls": 1007,
+  "lbfgs_optimizer_func_evals": 1007,
+  "lbfgs_iterations": 1000,
+  "trace_points": 303,
+  "trace_csv": "ff_pinn_seed1111_trace.csv"
+}

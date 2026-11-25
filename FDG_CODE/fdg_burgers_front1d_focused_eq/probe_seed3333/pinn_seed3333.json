@@ -1,0 +1,16 @@
+{
+  "equation": "fdg_burgers_front1d_focused_eq",
+  "seed": 3333,
+  "method": "PINN",
+  "model_kind": "base",
+  "weight_mode": "fixed",
+  "adam_max_steps": 2000,
+  "lbfgs_max_steps": 1000,
+  "training_time_s": 84.89206552505493,
+  "final_pde_loss": 0.011348635519117406,
+  "final_ic_loss": 0.008270639568986157,
+  "final_bc_loss": 0.000211002666571183,
+  "training_l2": 0.18058529602454537,
+  "global_l2": 0.14585919289122812,
+  "discrete_l2": 0.13620630362081493
+}

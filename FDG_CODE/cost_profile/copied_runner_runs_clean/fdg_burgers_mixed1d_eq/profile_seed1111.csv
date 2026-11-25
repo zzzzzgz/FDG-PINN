@@ -1,0 +1,2 @@
+equation,method,seed,model_kind,weight_mode,network_parameters,adaptive_weight_parameters,training_time_s,global_l2,paper_seed_global_l2,peak_allocated_mib,peak_reserved_mib,lbfgs_closure_calls,lbfgs_optimizer_func_evals,lbfgs_iterations,trace_points,trace_csv
+fdg_burgers_mixed1d_eq,FDG-PINN,1111,fourier_double_gate,aw,108961,3,490.7246422767639,0.0007097363675790828,0.0006244532179630204,1452.7568359375,1762.0,1010,1010,1000,304,fdg_pinn_seed1111_trace.csv

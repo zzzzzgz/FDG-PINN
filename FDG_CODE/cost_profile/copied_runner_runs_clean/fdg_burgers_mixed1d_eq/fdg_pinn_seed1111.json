@@ -1,0 +1,19 @@
+{
+  "equation": "fdg_burgers_mixed1d_eq",
+  "method": "FDG-PINN",
+  "seed": 1111,
+  "model_kind": "fourier_double_gate",
+  "weight_mode": "aw",
+  "network_parameters": 108961,
+  "adaptive_weight_parameters": 3,
+  "training_time_s": 490.7246422767639,
+  "global_l2": 0.0007097363675790828,
+  "paper_seed_global_l2": 0.0006244532179630204,
+  "peak_allocated_mib": 1452.7568359375,
+  "peak_reserved_mib": 1762.0,
+  "lbfgs_closure_calls": 1010,
+  "lbfgs_optimizer_func_evals": 1010,
+  "lbfgs_iterations": 1000,
+  "trace_points": 304,
+  "trace_csv": "fdg_pinn_seed1111_trace.csv"
+}
